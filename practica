@@ -1,0 +1,31 @@
+# --- no more monney ---
+# usamos int() porque la cantidad de dinero para retirar no se puede sobre pasar
+total_dinero = int(input("Ingrese el total de dinero que quiere retirar:1000")) 
+retirado_hoy =int(input("¡cuanto dinero desea retirar?"))
+
+# resta (-) para sacar cuanto le queda
+# 2. OPERACIONES ARIRMETICAS (calculo directos) +-
+# restaa: para saber cuanto le queda
+retirado = total_dinero - restar_dinero
+
+#multiplicamos por 1000 para ver cuanto le queda (ej. 90)
+total_dinero = (retirado_hoy) (total_dinero) * 1000
+
+#si le queda )=%,tiene dinero suficiente
+ES_BUENA_CANTIDAD= total_dinero > 90
+
+# 4. Resultado
+print("--- saldo general ---")
+print(f"total de la cuenta: {total_de_la_cuenta}")
+print(f"hoy sacadas : {retirado_hoy} dinero.")
+print(f"retirado total de : {queda} total de la cuenta.")
+print(f"dinero: {restado}%")
+ 
+# 5. veredicto final
+if es_buena_cantidad and (quedaron == 0):
+    print("increible cantidad. ")
+elif es_buena_cantidad:
+    
+    print("sigue ahorrando.")
+else:
+    print("alerta: ya no tienes suficientes fonfos.")
