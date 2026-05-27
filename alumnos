@@ -1,0 +1,36 @@
+dict
+{
+def organizar_evento(participantes):
+    "Annabelle"
+    "chucky"
+    "jackson"
+    "penny wais"
+}
+    evento = {}
+{
+    for persona in participantes:
+
+        nombre = persona["nombre"]
+        habilidad = persona["habilidad"]
+        disponibilidad = persona["disponibilidad"]
+        horas = persona["horas"]
+
+        if disponibilidad == True and horas >= 2:
+
+            if habilidad == "organizacion":
+                evento[nombre] = "equipo de organizacion"
+
+            elif habilidad == "diseño":
+                evento[nombre] = "equipo de diseño"
+
+            elif habilidad == "tecnologia":
+                evento[nombre] = "soporte tecnico"
+
+            else:
+                evento[nombre] = "apoyo general"
+
+        else:
+            evento[nombre] = "no disponible"
+
+    return evento
+}
